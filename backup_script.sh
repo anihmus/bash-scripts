@@ -2,7 +2,7 @@
 
 # Author: Andrew Pomponio
 # Date Created: 5/11/2024
-# Last Modified: 5/11/2024
+# Last Modified: 5/19/2024
 # Description: A script that backs up the users Home directory contents
 # Usage: Run the script
 
