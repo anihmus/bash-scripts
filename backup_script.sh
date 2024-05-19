@@ -6,6 +6,12 @@
 # Description: A script that backs up the users Home directory contents
 # Usage: Run the script
 
-tar -cvf ~/BASH/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+currentdir=(pwd)
 
-exit 0
+echo "Hello ${USER^}, I will now back up your home directory, /home/$USER"
+echo "You are running this script from ${currentdir} so I will put your backup in ${currentdir}."
+
+
+tar -cf ./my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+
+echo "Backup has completed successfully."
