@@ -8,7 +8,7 @@
 
 currentdir=$(pwd)
 
-echo "Hello ${USER^}, I will now back up your home directory, /home/$USER"
+echo "Hello ${USER^}, I will now back up your home directory, $HOME"
 echo "You are running this script from ${currentdir} so I will put your backup in ${currentdir}."
 
 
