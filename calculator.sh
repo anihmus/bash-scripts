@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$results=(*[+ - * /]*)
+$results=(*[+ - '*' /]*)
 echo "Enter your math problem:"
 read $type
 
